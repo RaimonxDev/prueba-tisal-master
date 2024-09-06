@@ -1,0 +1,69 @@
+<div>
+  <div class="fixed inset-y-0 z-50 flex w-72 flex-col">
+    <div class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6">
+      <div class="flex h-16 shrink-0 items-center font-bold text-rose-500">
+        Prueba Técnica
+      </div>
+      <nav class="flex flex-1 flex-col">
+        <ul role="list" class="flex flex-1 flex-col gap-y-7">
+
+          <li>
+            <ul role="list" class="-mx-2 space-y-1">
+              <li>
+                <a routerLink="/home" routerLinkActive="active" class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 hover:bg-gray-50
+                text-gray-700 hover:text-rose-600">
+                  <mat-icon>home</mat-icon>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a routerLink="prueba2" routerLinkActive="active" class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-rose-600">
+                 <mat-icon>group</mat-icon>
+                 Prueba 2
+                </a>
+              </li>
+              <li>
+                <a routerLink="prueba3" routerLinkActive="active" class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-rose-600">
+                  <mat-icon>folder_open</mat-icon>
+                   Prueba 3 Signals
+                </a>
+              </li>
+              <li>
+                <a routerLink="prueba3-obs" routerLinkActive="active" class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-rose-600">
+                  <mat-icon>calendar_month</mat-icon>
+                   Prueba 3 Observable
+                </a>
+              </li>
+              <li>
+                <a class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-rose-600">
+                 <mat-icon>content_copy</mat-icon>
+                  Item 5
+                </a>
+              </li>
+              <li>
+                <a  class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-rose-600">
+                 <mat-icon>rocket_launch</mat-icon>
+                  Item 6
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="-mx-6 mt-auto">
+            <a  class="flex items-center gap-x-4 px-6 py-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">
+              <img class="h-8 w-8 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <span class="sr-only">Company</span>
+              <span aria-hidden="true">Tisal</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main class="py-10 lg:pl-72">
+    <div class="px-4 sm:px-6 lg:px-8">
+       <router-outlet/>
+    </div>
+  </main>
+</div>

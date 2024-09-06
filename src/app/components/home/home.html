@@ -1,0 +1,122 @@
+ <main class="pl-10">
+      <section class="prose max-w-none">
+        <p><strong>Bienvenido a la prueba técnica de Tisal</strong></p>
+        <h2 id="prueba-1-optimizaci-n-del-men-de-la-aplicaci-n">
+          Prueba 1: Optimización del Menú de la Aplicación
+        </h2>
+        <h6 id="descripci-n-">Descripción:</h6>
+        <p>
+          El objetivo de esta prueba es optimizar el menú de la aplicación para
+          que se genere dinámicamente a partir de los datos proporcionados en un
+          archivo JSON local. Asegúrate de que el menú funcione correctamente y
+          que los enlaces de navegación dentro de la aplicación sean totalmente
+          operativos.
+        </p>
+        <ul>
+          <li>
+            Archivo JSON: <code>data_menu.json</code> (ubicado en la carpeta
+            <code>public</code>).
+          </li>
+        </ul>
+        <h6 id="requisitos-">Requisitos:</h6>
+        <ul>
+          <li>
+            Los datos del menú deben ser cargados desde el archivo JSON local
+            que se encuentra en la carpeta <code>public</code>.
+          </li>
+          <li>
+            La navegación a través de los enlaces del menú debe funcionar
+            correctamente y sin errores.
+          </li>
+        </ul>
+        <h2 id="prueba-2-selects-dependientes">
+          Prueba 2: Selects Dependientes
+        </h2>
+        <h6 id="descripci-n-">Descripción:</h6>
+        <p>
+          Crea un formulario con tres selectores (<code>&lt;select&gt;</code>):
+          <strong>Edificio</strong>, <strong>Piso</strong> y
+          <strong>Zona</strong>. Estos deben ser dependientes entre sí, es
+          decir, las opciones de &quot;Piso&quot; deben actualizarse según la
+          selección de &quot;Edificio&quot;, y las opciones de &quot;Zona&quot;
+          deben actualizarse según la selección de &quot;Piso&quot; y
+          &quot;Edificio&quot;.
+        </p>
+        <p><strong>Ejemplo de flujo de selección:</strong></p>
+        <ul>
+          <li>
+            Si el usuario selecciona el <strong>Edificio 1</strong>, el segundo
+            selector debe mostrar los pisos disponibles para ese edificio.
+          </li>
+          <li>
+            Luego, al seleccionar el <strong>Piso 2</strong> del
+            <strong>Edificio 1</strong>, el tercer selector debe mostrar las
+            zonas correspondientes a ese piso.
+          </li>
+        </ul>
+        <p><strong>Ejemplo de resultado esperado</strong>:</p>
+        <pre><code class="lang-json">
+  <span class="hljs-attr">"edificio"</span>: <span class="hljs-string">"1"</span>,
+  <span class="hljs-attr">"piso"</span>: <span class="hljs-string">"2"</span>,
+  <span class="hljs-attr">"zona"</span>: <span class="hljs-string">"Norte"</span>
+
+</code></pre>
+        <ul>
+          <li>
+            Archivo JSON: <code>data_edificio_piso_zona.json</code> (ubicado en
+            la carpeta <code>public</code>).
+          </li>
+        </ul>
+        <h6 id="requisitos-">Requisitos:</h6>
+        <ul>
+          <li>
+            Los datos de <strong>Edificio</strong>, <strong>Piso</strong> y
+            <strong>Zona</strong> deben ser obtenidos a partir de una petición
+            al archivo JSON local ubicado en la carpeta <code>public</code>.
+          </li>
+          <li>
+            La interfaz debe actualizar correctamente los selectores de forma
+            dependiente.
+          </li>
+        </ul>
+        <h2 id="prueba-3-depurar-los-servicios-counterservice">
+          Prueba 3 Depurar los servicios CounterService
+        </h2>
+        <h6 id="descripci-n-">Descripción:</h6>
+        <p>
+          En esta prueba, debes solucionar un problema relacionado con el
+          servicio CounterService, el cual se utiliza para incrementar y
+          decrementar un contador. El contador funciona correctamente en el
+          componente Prueba2, pero no se refleja adecuadamente en los
+          componentes Child1 y Child2. Aunque ambos hijos comparten el mismo
+          servicio de CounterService, los cambios en el contador no se
+          actualizan entre ellos.
+        </p>
+        <h6 id="detalles-del-problema-">Detalles del Problema:</h6>
+        <p>
+          Actualmente, cada componente hijo (Child1 y Child2) tiene su propia
+          instancia del servicio CounterService, lo que significa que los
+          cambios realizados en uno de ellos no se ven reflejados en el otro. Tu
+          tarea es identificar la causa de este comportamiento y corregirlo para
+          que los componentes hijos compartan una única instancia del servicio,
+          de modo que las actualizaciones del contador se sincronicen entre
+          ellos.
+        </p>
+        <h6 id="requisitos-">Requisitos:</h6>
+        <ul>
+          <li>
+            <p>
+              Identifica y soluciona el problema de modo que las actualizaciones
+              en el contador se reflejen en todos los componentes en tiempo
+              real.
+            </p>
+          </li>
+          <li>
+            <p>
+              Explica el problema: Debes explicar por qué sucede este
+              comportamiento y cómo lo has resuelto.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>

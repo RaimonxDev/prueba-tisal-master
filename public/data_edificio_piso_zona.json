@@ -1,0 +1,202 @@
+[
+  {
+    "edificio": 1,
+    "piso": 1,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 3,
+    "piso": 5,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 1,
+    "piso": 2,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 3,
+    "piso": 4,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 1,
+    "piso": 2,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 1,
+    "piso": 5,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 5,
+    "piso": 1,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 4,
+    "piso": 6,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 2,
+    "piso": 1,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 3,
+    "piso": 3,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 5,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 1,
+    "piso": 1,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 4,
+    "piso": 6,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 1,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 4,
+    "piso": 2,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 3,
+    "piso": 1,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 2,
+    "piso": 1,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 4,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 2,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 3,
+    "piso": 2,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 2,
+    "piso": 2,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 5,
+    "piso": 4,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 1,
+    "piso": 2,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 2,
+    "piso": 6,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 4,
+    "piso": 2,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 4,
+    "piso": 2,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 3,
+    "piso": 6,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 1,
+    "piso": 5,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 4,
+    "piso": 2,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 3,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 2,
+    "piso": 4,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 5,
+    "zona": "Oriente"
+  },
+  {
+    "edificio": 4,
+    "piso": 6,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 2,
+    "piso": 5,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 3,
+    "piso": 5,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 4,
+    "piso": 6,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 3,
+    "piso": 5,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 2,
+    "piso": 2,
+    "zona": "Norte"
+  },
+  {
+    "edificio": 4,
+    "piso": 6,
+    "zona": "Sur"
+  },
+  {
+    "edificio": 5,
+    "piso": 3,
+    "zona": "Sur"
+  }
+]

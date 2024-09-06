@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Home",
+    "path": "home",
+    "icon": "home"
+  },
+  {
+    "title": "Prueba 1",
+    "path": "prueba1",
+    "icon": "person"
+  },
+  {
+    "title": "Prueba 2",
+    "path": "prueba2",
+    "icon": "person"
+  },
+  {
+    "title": "Prueba 3 Signals",
+    "path": "prueba3",
+    "icon": "settings"
+  },
+  {
+    "title": "Prueba 3 Observable",
+    "path": "prueba3-obs",
+    "icon": "mail"
+  },
+  {
+    "title": "Notifications",
+    "path": "notifications",
+    "icon": "notifications"
+  },
+  {
+    "title": "Help",
+    "path": "help",
+    "icon": "help_outline"
+  },
+  {
+    "title": "Dashboard",
+    "path": "dashboard",
+    "icon": "dashboard"
+  },
+  {
+    "title": "Reports",
+    "path": "reports",
+    "icon": "bar_chart"
+  },
+  {
+    "title": "Tasks",
+    "path": "tasks",
+    "icon": "assignment"
+  },
+  {
+    "title": "Calendar",
+    "path": "calendar",
+    "icon": "event"
+  },
+  {
+    "title": "Contacts",
+    "path": "contacts",
+    "icon": "contacts"
+  },
+  {
+    "title": "Logout",
+    "path": "logout",
+    "icon": "exit_to_app"
+  }
+]
