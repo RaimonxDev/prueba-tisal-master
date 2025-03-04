@@ -8,6 +8,9 @@ import { MatButtonModule } from "@angular/material/button";
     <p class="text-2xl">Count: </p>
       <button mat-flat-button (click)="add()">Add</button>
   `,
+  host: {
+    class: 'flex items-center flex-col '
+  },
   standalone: true,
   imports: [MatButtonModule],
 })

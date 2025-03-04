@@ -9,6 +9,9 @@ import { MatButtonModule } from "@angular/material/button";
       <button mat-stroked-button (click)="sub()">Substract</button>
   `,
   standalone: true,
+  host: {
+    class: 'flex items-center flex-col '
+  },
   imports: [MatButtonModule],
 })
 export default class Child2 {
