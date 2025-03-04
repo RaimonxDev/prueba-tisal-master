@@ -4,3 +4,10 @@
 @tailwind utilities;
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@layer components {
+  .marked {
+    @apply bg-rose-50 text-rose-600 px-2 py-1 rounded-md;
+  }
+}

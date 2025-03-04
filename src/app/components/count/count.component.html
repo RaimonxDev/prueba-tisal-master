@@ -1,8 +1,9 @@
 
-<h1 class="text-center">Count Observable: {{countService.count | async}}</h1>
+
+<h1 class="text-center">Count: {{count}}</h1>
 <div class="flex gap-4 justify-center">
-  <button mat-flat-button (click)="countService.add()">Add</button>
-  <button mat-stroked-button (click)="countService.substract()">Substract</button>
+  <button mat-flat-button (click)="add()">Add</button>
+  <button mat-stroked-button (click)="sub()">Substract</button>
 </div>
 
 <hr class="my-4">
@@ -10,13 +11,13 @@
 <div class="grid grid-cols-2 gap-4 ">
   <div class="overflow-hidden rounded-lg bg-white shadow">
     <div class="px-4 py-5 sm:p-6">
-      <app-child-obs-1/>
+      <app-child-1/>
     </div>
   </div>
 
   <div class="overflow-hidden rounded-lg bg-white shadow">
     <div class="px-4 py-5 sm:p-6">
-      <app-child-obs-2/>
+      <app-child-2/>
     </div>
   </div>
 </div>
